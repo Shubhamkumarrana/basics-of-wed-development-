@@ -1,0 +1,88 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <div  class="comment">
+     <h2 style="font-style:oblique ;">your personal details</h2>
+    </div>
+    <form action="backend.php">
+        <div class="data">
+        <h4 >fill up the form </h4>
+        <div>
+        <label for ="name"><p style="padding: 10px color: yellow"></p> name</label>
+        <input type="text" name ="myname" required>
+        </div><br>
+        <div>
+        <label for ="roll-number">roll no</label>
+        <input type="text" name ="roll" required>
+        </div><br>
+        <div>
+        <label for ="BRANCH">BRANCH</label>
+        <input type="text" name ="BRANCH">
+        </div><br>
+        <div>
+        <label for ="gmail">gmail</label>
+        <input type="text" name ="gmail" required>
+        </div><br>
+        <div>
+        <label for ="phno"><phone->phone-number</phone-></label>
+        <input type="number" name ="phone-" required>
+        </div>
+        </div><br>
+        <h4>select your gender</h4>
+        <div>
+            Gender:Male<input type="radio" name="gender"> Female<input type="radio" name="gender">
+            others<input type="radio" name="gender">
+        </div><br>
+        <div>
+            Are you not robot<input type="checkbox">
+        </div><br>
+        <div>
+            Write something about yourself<br>:<textarea name="my text" cols="30" rows="20"></textarea> 
+        </div><br>
+        <div>
+            <label for="food">favourite food</label>
+            <select name="favourite food" id="food" >
+                <option value="indian" >Indian food</option>
+                <option value="continental">continental food</option>
+            </select>
+        </div><br>
+        <div>
+            <label for="search">search</label>
+            <input type="search " name="search here" >
+        </div>
+
+        <div>
+            <label for="car">favourite car</label>
+            <select name="favourite food" id="favourite car" >
+                <option value="xuv300" >XUV300</option>
+                <option value="XUV700">XUV700</option>
+                <option value="no">Not mentioned </option>
+            </select>
+        </div><br>
+        <div>
+            <label for="marriage staus">ARE YOU MARRIED</label>
+            <select name="MARRIED" id="ARE YOU MARRIED">
+                <option value="yes">yes</option>
+                <option value="no">NO</option>
+               
+            </select>
+        </div>
+        
+        <div>
+            submit:<input type="submit" value="Submit Now">
+            Reset:<input type="reset" value="reset Now">
+        </div><br>
+
+
+    </form>
+
+</body>
+</html>
